@@ -1,0 +1,86 @@
+:root {
+  --background-color: #f5f9ff;
+  --background-dark-color: #0b1220;
+  --background-theme-color: #2563eb;
+  --top-background-color: #1d4ed8;
+  --subtitle-txt-color: #2563eb;
+  --primary-default-color: #2563eb;
+  --primary-hover-color: #1d4ed8;
+  --secondary-default-color: #1e3a8a;
+  --ghost-default-color: #f5f9ff;
+  --ghost-hover-color: #dbeafe;
+  --ghost-txt-color: #2563eb;
+  --primary-text-color: #0f172a;
+  --t-text-disable-color: #64748b;
+  --placeholder-color: #94a3b8;
+  --header-color-hover: #eff6ff;
+  --font-tertiary: #94a3b8;
+  --tag-orange-color: #2563eb;
+  --grey-color: #e2e8f0;
+  --line-subtle: #e2e8f0;
+  --surface: #ffffff;
+  --hotline-color: #2563eb;
+  --hotline-hover: #1d4ed8;
+  --card-shadow: 0 10px 32px rgba(15, 23, 42, 0.06);
+  --card-shadow-hover: 0 16px 40px rgba(15, 23, 42, 0.08);
+  --container-width: 1120px;
+  --header-height: 64px;
+  --topbar-height: 0px;
+  --section-y: 96px;
+  --radius-xl: 24px;
+  --radius-lg: 18px;
+  --radius-md: 14px;
+  --btn-glow: 0 10px 28px rgba(37, 99, 235, 0.32);
+}
+
+html {
+  font-size: 16px;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  color: var(--primary-text-color);
+  background: #fff;
+  font-family: Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+}
+
+#app {
+  min-height: 100vh;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+button,
+input,
+textarea {
+  font-family: inherit;
+}
+
+.span-inter-400 { font-family: Inter, sans-serif; font-weight: 400; }
+.span-inter-500 { font-family: Inter, sans-serif; font-weight: 500; }
+.span-inter-600 { font-family: Inter, sans-serif; font-weight: 600; }
+.span-inter-700 { font-family: Inter, sans-serif; font-weight: 700; }
+.span-inter-800 { font-family: Inter, sans-serif; font-weight: 800; }
+.span-poppins-400 { font-family: Poppins, sans-serif; font-weight: 400; }
+.span-poppins-500 { font-family: Poppins, sans-serif; font-weight: 500; }
+
+.page-wrap {
+  width: min(var(--container-width), calc(100% - 48px));
+  margin: 0 auto;
+}
+
+.bg-grid {
+  background-image:
+    linear-gradient(to right, rgba(15, 23, 42, 0.045) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(15, 23, 42, 0.045) 1px, transparent 1px);
+  background-size: 56px 56px;
+}

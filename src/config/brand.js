@@ -1,0 +1,18 @@
+export const brand = {
+  name: 'TOP AI',
+  displayName: 'Top AI',
+  legalName: 'TOP AI INC.',
+  tagline: 'Enterprise AI, built to deploy',
+  email: 'business@topaiinc.com',
+  emailHref: 'mailto:business@topaiinc.com',
+  address: '1601 Elm Street, Suite 4360, Dallas, TX 75201',
+  hours: '09:00–17:00 CT',
+  businessHours: '9:00 AM – 6:00 PM CT, Monday to Friday',
+  response: 'within 24h',
+  copyright: '© 2026 TOP AI INC. All rights reserved.',
+  platformUrl: '#',
+  fileNumber: '8060701109',
+  formedOn: 'July 13, 2026',
+  entityType: 'Texas Domestic For-Profit Corporation',
+  registeredAgent: 'Cogency Global Inc.',
+}
