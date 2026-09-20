@@ -281,7 +281,7 @@ export default {
     title: 'Let’s plan your next AI rollout',
     subtitle: 'Talk with the Top AI team about platforms, agents and a secure path to production.',
     send: 'Send a message',
-    note: 'Our team typically responds within one business day. For urgent matters, email business@topaiinc.com.',
+    note: 'Our team typically responds within one business day. For urgent matters, email Ryan@topaiinc.ai.',
     formTitle: 'Start a conversation',
     formHint: 'Share a few details and a solutions architect will follow up within 24 hours.',
     name: 'Name *',
