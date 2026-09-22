@@ -2,6 +2,7 @@
 import { computed } from 'vue'
 import { useI18n } from '@/i18n'
 import SectionHeader from '@/components/common/SectionHeader.vue'
+import WorldMap from '@/components/common/WorldMap.vue'
 
 const { t, messages } = useI18n()
 const history = computed(() => messages.value.home.history)
@@ -22,7 +23,7 @@ const history = computed(() => messages.value.home.history)
           </article>
         </div>
         <div class="gh-map">
-          <img class="map" src="/images/world-map.png" alt="Top AI global footprint" />
+          <WorldMap class="map" alt="Top AI global footprint" />
         </div>
       </div>
     </div>

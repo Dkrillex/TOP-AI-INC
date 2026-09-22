@@ -3,6 +3,7 @@ import { computed, ref, watch } from 'vue'
 import { useI18n } from '@/i18n'
 import AppButton from '@/components/common/AppButton.vue'
 import FeatureIcon from '@/components/common/FeatureIcon.vue'
+import WorldMap from '@/components/common/WorldMap.vue'
 import VisionBanner from '@/components/home/VisionBanner.vue'
 
 const { t, messages } = useI18n()
@@ -65,7 +66,7 @@ watch(products, (items) => {
         </div>
       </div>
       <div class="map-wrap">
-        <img class="map" src="/images/world-map.png" alt="Top AI delivery map" />
+        <WorldMap class="map" alt="Top AI delivery map" />
       </div>
     </div>
   </section>

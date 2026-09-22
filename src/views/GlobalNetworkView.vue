@@ -4,6 +4,7 @@ import { useI18n } from '@/i18n'
 import SectionHeader from '@/components/common/SectionHeader.vue'
 import VisionBanner from '@/components/home/VisionBanner.vue'
 import AppButton from '@/components/common/AppButton.vue'
+import WorldMap from '@/components/common/WorldMap.vue'
 
 const { t, messages } = useI18n()
 const stats = computed(() => messages.value.network.stats)
@@ -24,7 +25,7 @@ const points = computed(() => messages.value.network.points)
         <AppButton to="/products" variant="ghost">{{ t('common.explore') }}</AppButton>
       </div>
       <div class="map-wrap">
-        <img class="map" src="/images/world-map.png" alt="Top AI Texas presence" />
+        <WorldMap class="map" alt="Top AI Texas presence" />
         <div class="chips">
           <article v-for="item in stats" :key="item.label" class="chip">
             <p class="span-inter-800 value">{{ item.value }}</p>
